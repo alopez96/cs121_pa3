@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Voice Memos</string>
+    <string name="action_favorite">Add</string>
+</resources>
