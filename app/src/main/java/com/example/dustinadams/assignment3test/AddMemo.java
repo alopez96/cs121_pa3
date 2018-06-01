@@ -225,7 +225,7 @@ public class AddMemo extends AppCompatActivity implements ActivityCompat.OnReque
 
                     //pop the activity off the stack
                     Intent i = new Intent(AddMemo.this, MainActivity.class);
-                    i.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                    //i.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                     startActivity(i);
 
                 }
