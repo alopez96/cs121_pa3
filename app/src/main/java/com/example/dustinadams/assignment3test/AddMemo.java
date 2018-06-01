@@ -222,6 +222,12 @@ public class AddMemo extends AppCompatActivity implements ActivityCompat.OnReque
                     /*Method code here*/
                     Toast.makeText(AddMemo.this, "Exit",
                             Toast.LENGTH_LONG).show();
+
+                    //pop the activity off the stack
+                    Intent i = new Intent(AddMemo.this, MainActivity.class);
+                    i.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                    startActivity(i);
+
                 }
             });
         }
